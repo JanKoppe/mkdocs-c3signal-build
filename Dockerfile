@@ -17,6 +17,7 @@ RUN pip install --no-cache-dir \
     'mkdocs-git-revision-date-localized-plugin' \
     'mkdocs-awesome-pages-plugin' \
     'mkdocs-drawio-exporter' \
+    'mkdocs-redirects' \
     'pymdown-extensions'
 
 RUN useradd -m mkdocs
